@@ -1,12 +1,18 @@
 <p align="center">
-    <a href="https://travis-ci.org/riipandi/wizard"><img src="https://travis-ci.org/riipandi/wizard.svg" alt="Build Status"></a>
-    <a href="https://GitHub.com/riipandi/wizard/releases/"><img src="https://img.shields.io/github/downloads/riipandi/wizard/total.svg" alt="Github all releases"></a>
-    <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
+  <img alt="Wizard Logo" src="https://image.flaticon.com/icons/svg/178/178396.svg" height="140" />
+  <h3 align="center">Wizard - Simplify Linux Servers</h3>
+  <span align="center">A simple CLI application for managing Linux Server via terminal.</span>
 </p>
 
-# Wizard - Simplify Linux Servers
+<p align="center">
+  <a href="https://travis-ci.org/riipandi/wizard"><img src="https://travis-ci.org/riipandi/wizard.svg" alt="Build Status"></a>
+  <a href="https://GitHub.com/riipandi/wizard/releases/"><img src="https://img.shields.io/github/downloads/riipandi/wizard/total.svg" alt="Github all releases"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
+</p>
 
-This is a simple CLI application for managing Linux Server via terminal. The main focus now is for the Debian distribution.
+---
+
+The main focus now is for the Debian distribution. This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. For questions send an email to ripandi@pm.me.
 
 __Important Note:__ *This project still heavy development, not ready to use at production server.*
 
