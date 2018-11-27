@@ -9,6 +9,9 @@ This is a simple CLI application for managing Linux Server via terminal. The mai
 - [ ] Let's Encrypt Generator
 - [ ] MySQL Management
 - [ ] PgSQL Management
+- [ ] FTP User Management
+- [ ] Mail User Management
+- [ ] DNS Record Management
 - [ ] Domain availability checker
 - [ ] *You add here*
 
