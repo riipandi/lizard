@@ -15,6 +15,20 @@ This is a simple CLI application for managing Linux Server via terminal. The mai
 - [ ] Domain availability checker
 - [ ] *You add here*
 
+## Installation
+
+You can download binaries at [release page](https://github.com/riipandi/wizard/releases) or using wget.
+
+#### Using wget
+
+```bash
+# First download the wizard binary
+wget -O /usr/local/bin/wizard https://xxxxxxxx.xxx/wizard
+
+# Then make it executable
+chmod +x /usr/local/bin/wizard
+```
+
 ## Usage
 
 #### Basic usage
