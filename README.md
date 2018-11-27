@@ -1,8 +1,8 @@
-<p align="center">
+<div align="center">
   <img alt="Wizard Logo" src="https://image.flaticon.com/icons/svg/178/178396.svg" height="140" />
   <h3 align="center">Wizard - Simplify Linux Servers</h3>
-  <span align="center">A simple CLI application for managing Linux Server via terminal.</span>
-</p>
+  <p align="center">A simple CLI application for managing Linux Server via terminal.</p>
+</div>
 
 <p align="center">
   <a href="https://travis-ci.org/riipandi/wizard"><img src="https://travis-ci.org/riipandi/wizard.svg" alt="Build Status"></a>
