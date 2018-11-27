@@ -15,9 +15,21 @@ This is a simple CLI application for managing Linux Server via terminal. The mai
 - [ ] Domain availability checker
 - [ ] *You add here*
 
+## Usage
+
+#### Basic usage
+
+It's simple, just run `wizard <COMMAND>`
+
+Use `wizard` or `wizard -h` to show usage and a list of commands
+
 ## Things to know
 
 This project use [Golang](https://golang.org/) and [SPF13 Cobra](https://github.com/spf13/cobra) library. For detailed explanation on how things work, checkout their documentation.
+
+## Contributing
+
+Contributions to this project are welcome and encouraged. Wizard is a personal project by [Aris Ripandi](https://aris.web.id).
 
 ## License
 
