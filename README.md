@@ -1,5 +1,6 @@
 <p align="center">
     <a href="https://travis-ci.org/riipandi/wizard"><img src="https://travis-ci.org/riipandi/wizard.svg" alt="Build Status"></a>
+    <a href="https://GitHub.com/riipandi/wizard/releases/"><img src="https://img.shields.io/github/downloads/riipandi/wizard/total.svg" alt="Github all releases"></a>
     <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
 </p>
 
