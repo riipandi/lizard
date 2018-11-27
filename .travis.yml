@@ -10,8 +10,6 @@ env:
   global:
 
 notifications:
-  on_success: never
-  on_failure: never
   email: false
 
 install: true
