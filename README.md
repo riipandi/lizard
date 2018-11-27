@@ -21,6 +21,7 @@ __Important Note:__ *This project still heavy development, not ready to use at p
 - [ ] Mail User Management
 - [ ] DNS Record Management
 - [ ] Domain availability checker
+- [ ] Send detailed information via email
 - [ ] *You add here*
 
 ## Installation
