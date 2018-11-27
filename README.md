@@ -1,11 +1,13 @@
 <p align="center">
-    <a href="https://travis-ci.org/riipandi/wizard"><img src="https://travis-ci.org/riipandi/laravel-start.svg" alt="Build Status"></a>
+    <a href="https://travis-ci.org/riipandi/wizard"><img src="https://travis-ci.org/riipandi/wizard.svg" alt="Build Status"></a>
     <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
 </p>
 
 # Wizard - Simplify Linux Servers
 
 This is a simple CLI application for managing Linux Server via terminal. The main focus now is for the Debian distribution.
+
+__Important Note:__ *This project still heavy development, not ready to use at production server.*
 
 ## Features and TODO
 
