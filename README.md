@@ -14,10 +14,9 @@
 
 ---
 
-Wizard is a CLI application for managing your Linux Server. Current focus is making it
-for the Debian distribution. Install the server stack and configure your instance in
-the cloud of Google Cloud Platform, Amazon Web Services, DigitalOcean or any of your
-preference.
+Wizard is a CLI application for managing your Linux Server. Install the server stack
+and configure your instance in the cloud of Google Cloud Platform, Amazon Web Services,
+DigitalOcean or any of your preference. Current focus is making it for the Debian distribution.
 
 This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md).
 By participating, you are expected to uphold this code. For questions send an email to
