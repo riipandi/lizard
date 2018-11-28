@@ -14,9 +14,11 @@
 
 ---
 
-Wizard is a CLI application for managing your Linux Server. Install the server stack
-and configure your instance in the cloud of Google Cloud Platform, Amazon Web Services,
-DigitalOcean or any of your preference. Current focus is making it for the Debian distribution.
+Wizard is a simple CLI application for managing your Linux Server just like
+[EasyEngine](https://easyengine.io/), [CentminMod](https://centminmod.com/) and
+[Webinoly](https://webinoly.com/en/). Install the server stack and configure your
+instance in the cloud of Google Cloud Platform, Amazon Web Services, DigitalOcean
+or any of your preference. Current focus is making it for the Debian distribution.
 
 This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md).
 By participating, you are expected to uphold this code. For questions send an email to
@@ -62,11 +64,14 @@ Use `wizard` or `wizard -h` to show usage and a list of commands
 
 ## Things to know
 
-This project use [Golang](https://golang.org/) and [SPF13 Cobra](https://github.com/spf13/cobra) library. For detailed explanation on how things work, checkout their documentation.
+This project written in [Golang](https://golang.org/) and use
+[SPF13 Cobra](https://github.com/spf13/cobra) library. For detailed
+explanation on how things work, checkout their documentation.
 
 ## Contributing
 
-Contributions to this project are welcome and encouraged. Wizard is a personal project by [Aris Ripandi](https://aris.web.id).
+Contributions to this project are welcome and encouraged. Wizard is a
+personal project by [Aris Ripandi](https://aris.web.id).
 
 ## License
 
