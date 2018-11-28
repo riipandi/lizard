@@ -58,6 +58,12 @@ wget -O /usr/local/bin/lizard https://xxxxxxxx.xxx/lizard
 chmod +x /usr/local/bin/lizard
 ```
 
+#### Using Snapcraft
+
+```bash
+sudo snap install lizard --edge
+```
+
 ## Usage
 
 #### Basic usage
