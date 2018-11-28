@@ -1,6 +1,6 @@
 name: lizard
 version: "0.0.1+git"
-summary: a simple CLI application for managing your Linux Server.
+summary: A simple CLI application for managing your Linux Server.
 description: |
   Managing your own Linux server has never been easier. Install the server 
   stack and configure your instance in the cloud of Google Cloud Platform, 
