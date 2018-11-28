@@ -44,7 +44,7 @@ You will need a fresh [Debian 9.x (Stretch)](https://debian.org/) installation a
 
 ## Installation
 
-[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/lizard)
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/lizard)
 
 You can download binaries at [release page](https://github.com/riipandi/lizard/releases) or using wget.
 
