@@ -1,20 +1,20 @@
 <div align="center">
-  <img alt="Wizard Logo" src="https://image.flaticon.com/icons/svg/178/178396.svg" height="140" />
-  <h3 align="center">Wizard - Simplify Linux Servers</h3>
+  <img alt="Lizard Logo" src="https://image.flaticon.com/icons/svg/178/178396.svg" height="140" />
+  <h3 align="center">Lizard - Simplify Linux Servers</h3>
   <p align="center">
     <em>Managing your own Linux server has never been easier.</em>
   </p>
 </div>
 
 <p align="center">
-  <a href="https://travis-ci.org/riipandi/wizard"><img src="https://travis-ci.org/riipandi/wizard.svg" alt="Build Status"></a>
-  <a href="https://GitHub.com/riipandi/wizard/releases/"><img src="https://img.shields.io/github/downloads/riipandi/wizard/total.svg" alt="Github all releases"></a>
+  <a href="https://travis-ci.org/riipandi/lizard"><img src="https://travis-ci.org/riipandi/lizard.svg" alt="Build Status"></a>
+  <a href="https://GitHub.com/riipandi/lizard/releases/"><img src="https://img.shields.io/github/downloads/riipandi/lizard/total.svg" alt="Github all releases"></a>
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
 </p>
 
 ---
 
-Wizard is a simple CLI application for managing your Linux Server just like
+Lizard is a simple CLI application for managing your Linux Server just like
 [EasyEngine](https://easyengine.io/), [CentminMod](https://centminmod.com/) and
 [Webinoly](https://webinoly.com/en/). Install the server stack and configure your
 instance in the cloud of Google Cloud Platform, Amazon Web Services, DigitalOcean
@@ -46,25 +46,25 @@ You will need a fresh [Debian 9.x (Stretch)](https://debian.org/) installation a
 
 ## Installation
 
-You can download binaries at [release page](https://github.com/riipandi/wizard/releases) or using wget.
+You can download binaries at [release page](https://github.com/riipandi/lizard/releases) or using wget.
 
 #### Using wget
 
 ```bash
-# First download the wizard binary
-wget -O /usr/local/bin/wizard https://xxxxxxxx.xxx/wizard
+# First download the lizard binary
+wget -O /usr/local/bin/lizard https://xxxxxxxx.xxx/lizard
 
 # Then make it executable
-chmod +x /usr/local/bin/wizard
+chmod +x /usr/local/bin/lizard
 ```
 
 ## Usage
 
 #### Basic usage
 
-It's simple, just run `wizard <COMMAND>`
+It's simple, just run `lizard <COMMAND>`
 
-Use `wizard` or `wizard -h` to show usage and a list of commands
+Use `lizard` or `lizard -h` to show usage and a list of commands
 
 ## Things to know
 
@@ -74,7 +74,7 @@ explanation on how things work, checkout their documentation.
 
 ## Contributing
 
-Contributions to this project are welcome and encouraged. Wizard is a
+Contributions to this project are welcome and encouraged. Lizard is a
 personal project by [Aris Ripandi](https://aris.web.id).
 
 ## License
