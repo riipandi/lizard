@@ -1,9 +1,7 @@
 <div align="center">
   <img alt="Lizard Logo" src="https://image.flaticon.com/icons/svg/178/178396.svg" height="140" />
   <h3 align="center">Lizard - Simplify Linux Servers</h3>
-  <p align="center">
-    <em>Managing your own Linux server has never been easier.</em>
-  </p>
+  <p><em>Managing your own Linux server has never been easier.</em></p>
 </div>
 
 <p align="center">
@@ -45,6 +43,8 @@ __Important Note:__ *This project still heavy development, not ready to use at p
 You will need a fresh [Debian 9.x (Stretch)](https://debian.org/) installation and public IP address.
 
 ## Installation
+
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-white.svg)](https://snapcraft.io/lizard)
 
 You can download binaries at [release page](https://github.com/riipandi/lizard/releases) or using wget.
 
