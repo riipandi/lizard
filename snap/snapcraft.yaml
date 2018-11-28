@@ -16,6 +16,12 @@ architectures:
     run-on: [amd64, i386]
 
 parts:
-  my-part:
-    # See 'snapcraft plugins'
-    plugin: nil
+  lizard:
+    plugin: go
+    go-importpath: github.com/riipandi/lizard
+    source: .
+    source-type: git
+
+apps:
+  lizard:
+    command: bin/lizard
