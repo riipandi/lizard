@@ -1,7 +1,9 @@
 <div align="center">
   <img alt="Wizard Logo" src="https://image.flaticon.com/icons/svg/178/178396.svg" height="140" />
   <h3 align="center">Wizard - Simplify Linux Servers</h3>
-  <p align="center">A simple CLI application for managing Linux Server via terminal.</p>
+  <p align="center">
+    <em>Managing your own Linux server has never been easier.</em>
+  </p>
 </div>
 
 <p align="center">
@@ -12,7 +14,14 @@
 
 ---
 
-The main focus now is for the Debian distribution. This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. For questions send an email to ripandi@pm.me.
+Wizard is a CLI application for managing your Linux Server. Current focus is making it
+for the Debian distribution. Install the server stack and configure your instance in
+the cloud of Google Cloud Platform, Amazon Web Services, DigitalOcean or any of your
+preference.
+
+This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md).
+By participating, you are expected to uphold this code. For questions send an email to
+ripandi@pm.me.
 
 __Important Note:__ *This project still heavy development, not ready to use at production server.*
 
