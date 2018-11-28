@@ -40,6 +40,10 @@ __Important Note:__ *This project still heavy development, not ready to use at p
 - [ ] Send detailed information via email
 - [ ] *You add here*
 
+## Requirements
+
+You will need a fresh [Debian 9.x (Stretch)](https://debian.org/) installation and public IP address.
+
 ## Installation
 
 You can download binaries at [release page](https://github.com/riipandi/wizard/releases) or using wget.
