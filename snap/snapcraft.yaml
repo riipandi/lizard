@@ -12,7 +12,7 @@ type: app
 
 architectures:
   - build-on: amd64
-    run-on: [amd64, i386]
+  - build-on: i386
 
 parts:
   lizard:
@@ -24,3 +24,4 @@ parts:
 apps:
   lizard:
     command: bin/lizard
+    plugs: [home, network]
