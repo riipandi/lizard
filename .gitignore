@@ -32,12 +32,17 @@ _cgo_export.*
 
 _testmain.go
 *.prof
+*.snap
 
 # Project specific files
 .notes.txt
 .DS_Store
-.idea/
+.idea/*
 dist/*
+parts/*
+prime/*
+snap/*
+stage/*
 TODO
 build
 wizard
