@@ -79,6 +79,7 @@ Use `stackup` or `stackup -h` or `stackup --help` to show usage and a list of co
 
 ```bash
 # Test configuration
+go get
 goreleaser --snapshot --skip-publish --rm-dist
 ```
 
