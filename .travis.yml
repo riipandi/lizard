@@ -6,17 +6,18 @@ go:
 git:
   depth: 1
 
-env:
-  global:
+#env:
+#  global:
 
 notifications:
   email: false
 
 install: true
 
-#before_script:
-#  - go install -mod vendor github.com/golangci/golangci-lint/cmd/golangci-lint
+before_script:
+  - go install -mod vendor github.com/golangci/golangci-lint/cmd/golangci-lint
 
 script:
-  - go test -v -race ./...  # Run all the tests with the race detector enabled
+  # - go test -v -race ./...  # Run all the tests with the race detector enabled
   - go build
+  - go install
