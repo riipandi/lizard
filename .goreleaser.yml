@@ -35,6 +35,10 @@ snapcrafts:
     # Default is project name.
     name: stackup
 
+    type: app
+
+    version: "0.1.0+git"
+
     # Wether to publish the snap to the snapcraft store.
     # Remember you need to `snapcraft login` first.
     # Defaults to false.
@@ -88,6 +92,8 @@ snapcrafts:
       # The name of the app must be the same name as the binary built or the snapcraft name.
       stackup:
 
+        command: bin/stackup
+
         # If your app requires extra permissions to work outside of its default
         # confined space, declare them here.
         # You can read the documentation about the available plugs and the
@@ -105,7 +111,7 @@ snapcrafts:
 
         # Bash completion snippet. More information about completion here:
         # https://docs.snapcraft.io/tab-completion-for-snaps.
-        completer: drumroll-completion.bash
+        completer: stackup-completion.bash
 
     # Allows plugs to be configured. Plugs like system-files and personal-files
     # require this.
