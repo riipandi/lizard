@@ -14,7 +14,8 @@ notifications:
 
 install: true
 
-#before_script:
+before_script:
+  - go get
 #  - go install -mod vendor github.com/golangci/golangci-lint/cmd/golangci-lint
 
 script:
