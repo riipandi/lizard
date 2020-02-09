@@ -1,9 +1,9 @@
-name: lizard
-version: "0.0.1+git"
+name: stackup
+version: "0.1.0+git"
 summary: A simple CLI application for managing your Linux Server.
 description: |
-  Managing your own Linux server has never been easier. Install the server 
-  stack and configure your instance in the cloud of Google Cloud Platform, 
+  Managing your own Linux server has never been easier. Install the server
+  stack and configure your instance in the cloud of Google Cloud Platform,
   Amazon Web Services, DigitalOcean or any of your preference.
 
 confinement: devmode # use 'strict' once you have the right plugs and slots
@@ -15,13 +15,13 @@ architectures:
   - build-on: i386
 
 parts:
-  lizard:
+  stackup:
     plugin: go
-    go-importpath: github.com/riipandi/lizard
+    go-importpath: github.com/riipandi/stackup
     source: .
     source-type: git
 
 apps:
-  lizard:
-    command: bin/lizard
+  stackup:
+    command: bin/stackup
     plugs: [home, network]

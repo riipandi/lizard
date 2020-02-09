@@ -1,18 +1,19 @@
 <div align="center">
-  <img alt="Lizard Logo" src="https://image.flaticon.com/icons/svg/178/178396.svg" height="140" />
-  <h3 align="center">Lizard - Simplify Linux Servers</h3>
+  <img alt="StackUp Logo" src="https://image.flaticon.com/icons/svg/178/178396.svg" height="140" />
+  <h3 align="center">StackUp - Simplify Linux Servers</h3>
   <p><em>Managing your own Linux server has never been easier.</em></p>
 </div>
 
 <p align="center">
-  <a href="https://travis-ci.org/riipandi/lizard"><img src="https://travis-ci.org/riipandi/lizard.svg" alt="Build Status"></a>
-  <a href="https://GitHub.com/riipandi/lizard/releases/"><img src="https://img.shields.io/github/downloads/riipandi/lizard/total.svg" alt="Github all releases"></a>
-  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License"></a>
+  <a href="https://travis-ci.org/riipandi/stackup"><img src="https://travis-ci.org/riipandi/stackup.svg" alt="Build Status"></a>
+  <a href="https://snapcraft.io/stackup"><img alt="stackup" src="https://snapcraft.io/stackup/badge.svg" /></a>
+  <a href="https://GitHub.com/riipandi/stackup/releases/"><img src="https://img.shields.io/github/downloads/riipandi/stackup/total.svg" alt="Github all releases"></a>
+  <a href="./license.txt"><img src="https://img.shields.io/badge/License-Apache%202.0-yellow.svg" alt="License"></a>
 </p>
 
 ---
 
-Lizard is a simple CLI application for managing your Linux Server just like
+StackUp is a simple CLI application for managing your Linux Server just like
 [EasyEngine](https://easyengine.io/), [CentminMod](https://centminmod.com/) and
 [Webinoly](https://webinoly.com/en/). Install the server stack and configure your
 instance in the cloud of Google Cloud Platform, Amazon Web Services, DigitalOcean
@@ -20,7 +21,7 @@ or any of your preference. Current focus is making it for the Debian distributio
 
 This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md).
 By participating, you are expected to uphold this code. For questions send an email to
-ripandi@pm.me.
+[aris@ripandi.id](mailto:aris@ripandi.id).
 
 __Important Note:__ *This project still heavy development, not ready to use at production server.*
 
@@ -44,33 +45,33 @@ You will need a fresh [Debian 9.x (Stretch)](https://debian.org/) installation a
 
 ## Installation
 
-[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/lizard)
+[![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/stackup)
 
-You can download binaries at [release page](https://github.com/riipandi/lizard/releases) or using wget.
+You can download binaries at [release page](https://github.com/riipandi/stackup/releases) or using wget.
 
 #### Using wget
 
 ```bash
-# First download the lizard binary
-wget -O /usr/local/bin/lizard https://xxxxxxxx.xxx/lizard
+# First download the stackup binary
+wget -O /usr/bin/stackup https://xxxxxxxx.xxx/stackup
 
 # Then make it executable
-chmod +x /usr/local/bin/lizard
+chmod +x /usr/bin/stackup
 ```
 
 #### Using Snapcraft
 
 ```bash
-sudo snap install lizard --edge
+sudo snap install stackup --edge
 ```
 
 ## Usage
 
 #### Basic usage
 
-It's simple, just run `lizard <COMMAND>`
+It's simple, just run `stackup <COMMAND>`
 
-Use `lizard` or `lizard -h` to show usage and a list of commands
+Use `stackup` or `stackup -h` or `stackup --help` to show usage and a list of commands
 
 ## Things to know
 
@@ -80,9 +81,9 @@ explanation on how things work, checkout their documentation.
 
 ## Contributing
 
-Contributions to this project are welcome and encouraged. Lizard is a
+Contributions to this project are welcome and encouraged. StackUp is a
 personal project by [Aris Ripandi](https://aris.web.id).
 
 ## License
 
-This project is open-sourced software licensed under the [MIT license](./LICENSE).
+This project is open-sourced software licensed under the [Apache 2.0 License](./license.txt).
