@@ -99,7 +99,7 @@ git tag -a v0.1.0 -m "Initial release"
 git push origin v0.1.0
 
 # Publish
-goreleaser
+goreleaser --rm-dist
 ```
 
 > For more information please read: https://goreleaser.com/quick-start/
