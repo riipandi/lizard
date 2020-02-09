@@ -19,10 +19,8 @@ snapcrafts:
     # Values are the respective replacements.
     # Default is empty.
     replacements:
-      amd64: 64-bit
-      386: 32-bit
-      darwin: macOS
-      linux: Tux
+      amd64: x64
+      386: x86
 
     # The name of the snap. This is optional.
     # Default is project name.
@@ -72,7 +70,7 @@ snapcrafts:
     # * core - Ubuntu Core 16;
     # * core18 - Ubuntu Core 18.
     # Default is empty.
-    base: core18
+    base: bare
 
     # Each binary built by GoReleaser is an app inside the snap. In this section
     # you can declare extra details for those binaries. It is optional.
