@@ -113,8 +113,9 @@ explanation on how things work, checkout their documentation.
 
 ## Contributing
 
-Contributions to this project are welcome and encouraged. StackUp is a
-personal project by [Aris Ripandi](https://aris.web.id).
+Contributions to this project are welcome and encouraged. StackUp is a personal project 
+by [Aris Ripandi](https://aris.web.id). If you find my project useful, I would appreciate 
+if you would [buy me a cup of coffee](https://www.buymeacoffee.com/ars).
 
 ## License
 
