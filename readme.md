@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="StackUp Logo" src="https://image.flaticon.com/icons/svg/469/469374.svg" height="140" />
+  <img alt="StackUp Logo" src="https://image.flaticon.com/icons/svg/957/957310.svg" height="140" />
   <h3 align="center">StackUp - Simplify Linux Servers</h3>
   <p><em>Managing your own Linux server has never been easier.</em></p>
 </div>
