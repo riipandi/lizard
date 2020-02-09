@@ -1,24 +1,15 @@
-#builds:
-#  -
-#    id: stackup
-#    goos:
-#      - linux
-#    goarch:
-#      - amd64
-#      - 386
+builds:
+  -
+    id: stackup
+    goos:
+      - linux
+    goarch:
+      - amd64
+      - 386
 
 snapcrafts:
   -
     id: stackup
-    builds:
-      -
-        id: stackup
-        goos:
-          - linux
-        goarch:
-          - amd64
-          - 386
-
 
     # You can change the name of the package.
     # Default: `{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}{{ if .Mips }}_{{ .Mips }}{{ end }}`
