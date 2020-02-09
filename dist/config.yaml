@@ -1,0 +1,110 @@
+project_name: stackup
+release:
+  github:
+    owner: riipandi
+    name: stackup
+  name_template: '{{.Tag}}'
+scoop:
+  name: stackup
+  commit_author:
+    name: goreleaserbot
+    email: goreleaser@carlosbecker.com
+builds:
+- id: stackup
+  goos:
+  - linux
+  - darwin
+  goarch:
+  - amd64
+  - "386"
+  goarm:
+  - "6"
+  targets:
+  - linux_amd64
+  - linux_386
+  - darwin_amd64
+  - darwin_386
+  dir: .
+  main: .
+  ldflags:
+  - -s -w -X main.version={{.Version}} -X main.commit={{.Commit}} -X main.date={{.Date}}
+    -X main.builtBy=goreleaser
+  binary: stackup
+  lang: go
+archives:
+- id: default
+  builds:
+  - stackup
+  name_template: '{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}{{ if .Arm
+    }}v{{ .Arm }}{{ end }}{{ if .Mips }}_{{ .Mips }}{{ end }}'
+  format: tar.gz
+  files:
+  - licence*
+  - LICENCE*
+  - license*
+  - LICENSE*
+  - readme*
+  - README*
+  - changelog*
+  - CHANGELOG*
+snapcrafts:
+- name_template: '{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}'
+  replacements:
+    "386": 32-bit
+    amd64: 64-bit
+    darwin: macOS
+    linux: Tux
+  publish: true
+  id: stackup
+  builds:
+  - stackup
+  name: stackup
+  summary: A simple CLI application for managing your Linux Server.
+  description: |
+    Managing your own Linux server has never been easier. Install the server
+    stack and configure your instance in the cloud of Google Cloud Platform,
+    Amazon Web Services, DigitalOcean or any of your preference.
+  base: core18
+  license: Apache-2.0
+  grade: devel
+  confinement: devmode
+  apps:
+    stackup:
+      plugs:
+      - home
+      - network
+      - personal-files
+      daemon: ""
+      args: ""
+      completer: drumroll-completion.bash
+  plugs:
+    personal-files:
+      read:
+      - $HOME/.stackup
+      write:
+      - $HOME/.stackup
+      - $HOME/.stackup
+snapshot:
+  name_template: '{{ .Tag }}-SNAPSHOT-{{ .ShortCommit }}'
+checksum:
+  name_template: '{{ .ProjectName }}_{{ .Version }}_checksums.txt'
+  algorithm: sha256
+dist: dist
+signs:
+- id: default
+  cmd: gpg
+  args:
+  - --output
+  - $signature
+  - --detach-sig
+  - $artifact
+  signature: ${artifact}.sig
+  artifacts: none
+env_files:
+  github_token: ~/.config/goreleaser/github_token
+  gitlab_token: ~/.config/goreleaser/gitlab_token
+  gitea_token: ~/.config/goreleaser/gitea_token
+github_urls:
+  download: https://github.com
+gitlab_urls:
+  download: https://gitlab.com

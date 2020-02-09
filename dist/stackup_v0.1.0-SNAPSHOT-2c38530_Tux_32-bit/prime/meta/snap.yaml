@@ -1,0 +1,28 @@
+name: stackup
+version: v0.1.0-SNAPSHOT-2c38530
+summary: A simple CLI application for managing your Linux Server.
+description: |
+  Managing your own Linux server has never been easier. Install the server
+  stack and configure your instance in the cloud of Google Cloud Platform,
+  Amazon Web Services, DigitalOcean or any of your preference.
+base: core18
+license: Apache-2.0
+grade: devel
+confinement: devmode
+architectures:
+- i386
+apps:
+  stackup:
+    command: stackup
+    plugs:
+    - home
+    - network
+    - personal-files
+    completer: drumroll-completion.bash
+plugs:
+  personal-files:
+    read:
+    - $HOME/.stackup
+    write:
+    - $HOME/.stackup
+    - $HOME/.stackup

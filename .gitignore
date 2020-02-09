@@ -34,8 +34,10 @@ _testmain.go
 *.prof
 
 # Project specific files
-.idea/
+.notes.txt
 .DS_Store
+.idea/
+dist/
 TODO
 build
 wizard

@@ -75,6 +75,27 @@ It's simple, just run `stackup <COMMAND>`
 
 Use `stackup` or `stackup -h` or `stackup --help` to show usage and a list of commands
 
+## Deployment
+
+```bash
+# Test configuration
+goreleaser --snapshot --skip-publish --rm-dist
+```
+
+```bash
+# Login to snapcraft
+snapcraft login
+
+# Create new release tag
+git tag -a v0.1.0 -m "Initial release"
+git push origin v0.1.0
+
+# Publish
+goreleaser
+```
+
+> For more information please read: https://goreleaser.com/quick-start/
+
 ## Things to know
 
 This project written in [Golang](https://golang.org/) and use
