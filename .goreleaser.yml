@@ -10,24 +10,12 @@ builds:
 snapcrafts:
   -
     id: stackup
-
-    # You can change the name of the package.
-    # Default: `{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}{{ if .Mips }}_{{ .Mips }}{{ end }}`
     name_template: "{{ .ProjectName }}_v{{ .Version }}_{{ .Os }}_{{ .Arch }}"
-
-    # Replacements for GOOS and GOARCH in the package name.
-    # Keys should be valid GOOSs or GOARCHs.
-    # Values are the respective replacements.
-    # Default is empty.
     replacements:
       amd64: x64
       386: x86
 
-    # The name of the snap. This is optional.
-    # Default is project name.
     name: stackup
-    version: "0.1.0+git"
-    type: app
     publish: true
 
     summary: A simple CLI application for managing your Linux Server.
@@ -68,7 +56,6 @@ snapcrafts:
     # you can declare extra details for those binaries. It is optional.
     apps:
       stackup:
-        command: bin/stackup
 
         # If your app requires extra permissions to work outside of its default
         # confined space, declare them here.
