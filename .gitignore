@@ -37,7 +37,7 @@ _testmain.go
 .notes.txt
 .DS_Store
 .idea/
-dist/
+dist/*
 TODO
 build
 wizard
