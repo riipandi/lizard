@@ -86,6 +86,10 @@ goreleaser --snapshot --skip-publish --rm-dist
 # Login to snapcraft
 snapcraft login
 
+# Commit current changes
+git add . && git commit -m "Create release v0.1.0"
+git push origin master
+
 # Delete tag (if necessary)
 git tag -d v0.1.0
 git push --delete origin v0.1.0
@@ -95,8 +99,6 @@ git tag -a v0.1.0 -m "Initial release"
 git push origin v0.1.0
 
 # Publish
-git add . && git commit -m "Create release v0.1.0"
-git push origin master
 goreleaser
 ```
 
