@@ -29,7 +29,7 @@ __Important Note:__ *This project still heavy development, not ready to use at p
 
 ## Features and TODO
 
-- [ ] LEMP Installater
+- [ ] LEMP Installer
 - [ ] VirtualHost Manager
 - [ ] Let's Encrypt Generator
 - [ ] MySQL Management
@@ -43,7 +43,13 @@ __Important Note:__ *This project still heavy development, not ready to use at p
 
 ## Requirements
 
-You will need a fresh [Debian 9.x (Stretch)](https://debian.org/) installation and public IP address.
+You will need a fresh supported Linux distribution installation and public IP address.
+
+### Supported Linux Distribution
+
+- Debian 9 (Stretch)
+- Debian 10 (Buster)
+- Ubuntu 18.04 LTS
 
 ## Installation
 
@@ -107,9 +113,8 @@ goreleaser --rm-dist
 
 ## Things to know
 
-This project written in [Golang](https://golang.org/) and use
-[SPF13 Cobra](https://github.com/spf13/cobra) library. For detailed
-explanation on how things work, checkout their documentation.
+This project written in [Golang](https://golang.org/) and use [SPF13 Cobra](https://github.com/spf13/cobra) library. 
+For detailed explanation on how things work, checkout their documentation.
 
 ## Contributing
 
