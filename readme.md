@@ -19,9 +19,11 @@ StackUp is a simple CLI application for managing your Linux Server just like
 instance in the cloud of Google Cloud Platform, Amazon Web Services, DigitalOcean
 or any of your preference. Current focus is making it for the Debian distribution.
 
-This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md).
+<!--
+This project adheres to the Contributor Covenant [code of conduct](./CODE_OF_CONDUCT.md).
 By participating, you are expected to uphold this code. For questions send an email to
 [aris@ripandi.id](mailto:aris@ripandi.id).
+-->
 
 __Important Note:__ *This project still heavy development, not ready to use at production server.*
 
