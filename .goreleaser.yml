@@ -1,23 +1,24 @@
-builds:
-  -
-    id: stackup
-    goos:
-      - linux
-    goarch:
-      - amd64
-      - 386
+#builds:
+#  -
+#    id: stackup
+#    goos:
+#      - linux
+#    goarch:
+#      - amd64
+#      - 386
 
 snapcrafts:
   -
-    # ID of the snapcraft config, must be unique.
-    # Defaults to "default".
     id: stackup
+    builds:
+      -
+        id: stackup
+        goos:
+          - linux
+        goarch:
+          - amd64
+          - 386
 
-    # Build IDs for the builds you want to create snapcraft packages for.
-    # Defaults to all builds.
-    #builds:
-    #  - foo
-    #  - bar
 
     # You can change the name of the package.
     # Default: `{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}{{ if .Mips }}_{{ .Mips }}{{ end }}`
@@ -34,24 +35,11 @@ snapcrafts:
     # The name of the snap. This is optional.
     # Default is project name.
     name: stackup
-
-    type: app
-
     version: "0.1.0+git"
-
-    # Wether to publish the snap to the snapcraft store.
-    # Remember you need to `snapcraft login` first.
-    # Defaults to false.
+    type: app
     publish: true
 
-    # Single-line elevator pitch for your amazing snap.
-    # 79 char long at most.
     summary: A simple CLI application for managing your Linux Server.
-
-    # This the description of your snap. You have a paragraph or two to tell the
-    # most important story about your snap. Keep it under 100 words though,
-    # we live in tweetspace and your description wants to look good in the snap
-    # store.
     description: |
       Managing your own Linux server has never been easier. Install the server
       stack and configure your instance in the cloud of Google Cloud Platform,
@@ -83,15 +71,12 @@ snapcrafts:
     # * core - Ubuntu Core 16;
     # * core18 - Ubuntu Core 18.
     # Default is empty.
-    base: bare
+    base: core18
 
     # Each binary built by GoReleaser is an app inside the snap. In this section
     # you can declare extra details for those binaries. It is optional.
     apps:
-
-      # The name of the app must be the same name as the binary built or the snapcraft name.
       stackup:
-
         command: bin/stackup
 
         # If your app requires extra permissions to work outside of its default
@@ -121,5 +106,4 @@ snapcrafts:
         read:
           - $HOME/.stackup
         write:
-          - $HOME/.stackup
           - $HOME/.stackup
