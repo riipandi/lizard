@@ -25,7 +25,7 @@ By participating, you are expected to uphold this code. For questions send an em
 [aris@ripandi.id](mailto:aris@ripandi.id).
 -->
 
-__Important Note:__ *This project still heavy development, not ready to use at production server.*
+__Important Note:__ *This project still work in progress, not ready to use at production server.*
 
 ## Features and TODO
 
